@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion arrays</title>
+</head>
+<body>
+    <div id="divFruits"></div>
+
+    <script>
+        const fruits = ["Naranja", "Mandarina", "Fresa", "Mango", "Papaya"]
+
+const divFruits = document.getElementById('divFruits');
+
+
+    fruits.forEach(element => {
+      divFruits.innerHTML += `<li>${element}</li>`;
+        console.log(element);
+    });
+    </script>
+</body>
+</html>
